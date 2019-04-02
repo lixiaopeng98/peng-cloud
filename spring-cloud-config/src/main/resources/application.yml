@@ -1,0 +1,29 @@
+server:
+  port: 7800
+
+eureka:
+  instance:
+    hostname: config
+    prefer-ip-address: true
+    metadata-map:
+      user.name: user
+      user.password: 123123
+  client:
+    service-url:
+      defaultZone: http://${security.user.name}:${security.user.password}@registry:7801/eureka/
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/lixiaopeng98/peng-cloud.git
+          search-paths: config-house
+  rabbitmq:
+    host: rabbitmq
+
+security:
+  user:
+    name: user
+    password: 123123
+

@@ -1,5 +1,12 @@
 server:
   port: 7801
+
+
+spring:
+  application:
+    name: registry
+
+
 eureka:
   instance:
     namespace: registry
@@ -10,7 +17,9 @@ eureka:
     service-url:
       defaultZone: http://${security.user.name}:${security.user.password}@${eureka.instance.namespace}:${server.port}/eureka/
 
+
 security:
   user:
     name: user
     password: 123123
+

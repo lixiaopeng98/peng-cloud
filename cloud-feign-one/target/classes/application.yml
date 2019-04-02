@@ -1,16 +1,38 @@
 server:
   port: 7802
+
 spring:
   application:
     name: spring-feign-one
-  cloud:
-    config:
-      uri: http://registry:7801/eureka/
-      fail-fast: true
-      username: user
-      password: 123123
-      retry:
-          initial-interval: 2000
-          max-interval: 10000
-          multiplier: 2
-          max-attempts: 10
+
+eureka:
+  instance:
+    hostname: registry
+    prefer-ip-address: true
+    metadata-map:
+      user.name: user
+      user.password: 123123
+  client:
+    service-url:
+      defaultZone: http://${security.user.name}:${security.user.password}@registry:7801/eureka/
+
+security:
+  user:
+    name: user
+    password: 123123
+
+
+#spring:
+#  application:
+#    name: spring-feign-one
+#  cloud:
+#    config:
+#      uri: http://config:8888:7801/eureka/
+#      fail-fast: true
+#      username: user
+#      password: 123123
+#      retry:
+#          initial-interval: 2000
+#          max-interval: 10000
+#          multiplier: 2
+#          max-attempts: 10

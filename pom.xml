@@ -19,6 +19,7 @@
         <module>cloud-eureka</module>
         <module>cloud-feign-one</module>
         <module>cloud-feign-two</module>
+        <module>spring-cloud-config</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>

@@ -12,7 +12,18 @@
         <module name="cloudeureka" />
         <module name="cloudfeignone" />
         <module name="cloudfeigntwo" />
+        <module name="spring-cloud-config" />
+        <module name="springcloudconfig" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cloud-eureka" target="1.8" />
+      <module name="cloud-feign-one" target="1.8" />
+      <module name="cloud-feign-two" target="1.8" />
+      <module name="spring-cloud-config" target="1.8" />
+      <module name="spring-cloud-demo" target="1.8" />
+      <module name="spring-cloud-peng" target="1.8" />
+      <module name="springcloudconfig" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
