@@ -6,9 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cloud-auth-service" />
         <module name="cloud-eureka" />
         <module name="cloud-feign-one" />
         <module name="cloud-feign-two" />
+        <module name="cloudauthservice" />
         <module name="cloudeureka" />
         <module name="cloudfeignone" />
         <module name="cloudfeigntwo" />
@@ -17,9 +19,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cloud-auth-service" target="1.8" />
       <module name="cloud-eureka" target="1.8" />
       <module name="cloud-feign-one" target="1.8" />
       <module name="cloud-feign-two" target="1.8" />
+      <module name="cloudauthservice" target="1.8" />
       <module name="spring-cloud-config" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
       <module name="spring-cloud-peng" target="1.8" />

@@ -1,0 +1,44 @@
+server:
+  port: 7810
+  context-path: /uaa
+
+management:
+  context-path: /mgmt
+  security:
+    enabled: false
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:user
+    driver-class-name: org.h2.Driver
+    data-username: user
+    data-password: 123123
+  jpa:
+    show-sql: true
+  application:
+    name: cloud-auth-server
+
+eureka:
+  instance:
+    health-check-url: ${server.context-path}${management.context-path}/health
+    status-page-url-path: ${server.context-path}${management.context-path}/info
+    metadata-map:
+      management.context-path: ${server.context-path}${management.context-path}
+    hostname: registry
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://user:123123@registry:7801/eureka/
+
+authserver:
+    hostname: cloud-auth-server
+    port: 7810
+    contextPath: /uaa
+
+security:
+  user:
+    name: user
+    password: 123123
+  oauth2:
+    resource:
+      user-info-uri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/current

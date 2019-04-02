@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-auth-service/cloud-auth-service.iml" filepath="$PROJECT_DIR$/cloud-auth-service/cloud-auth-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-feign-one/cloud-feign-one.iml" filepath="$PROJECT_DIR$/cloud-feign-one/cloud-feign-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-feign-two/cloud-feign-two.iml" filepath="$PROJECT_DIR$/cloud-feign-two/cloud-feign-two.iml" />
