@@ -3,40 +3,46 @@ server:
 
 spring:
   application:
-    name: spring-feign-one
-
-eureka:
-  instance:
-    hostname: registry
-    prefer-ip-address: true
-    metadata-map:
-      user.name: user
-      user.password: 123123
-  client:
-    service-url:
-      defaultZone: http://${security.user.name}:${security.user.password}@registry:7801/eureka/
-
-authserver:
-  hostname: cloud-auth-service
-  port: 7810
-  contextPath: /uaa
-
+    name: cloud-feign-one
 
 security:
   user:
     name: user
     password: 123123
-  oauth2:
-    resource:
-      user-info-uri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/current
-    client:
-      clientId: spring-feign-one
-      clientSecret: ${security.user.password}
-      accessTokenUri: http://${authserver.hostname}:${authserver.port}${authserver.contextPath}/oauth/token
-      grant-type: client_credentials
-      scope: server
-  basic:
-    enabled: false
+
+eureka:
+  instance:
+    hostname: registry
+    prefer-ip-address: true
+#    metadata-map:
+#      user.name: user
+#      user.password: 123123
+  client:
+    service-url:
+#      defaultZone: http://${security.user.name}:${security.user.password}@registry:7801/eureka/
+      defaultZone: http://${eureka.instance.hostname}:7801/eureka/
+#
+#authserver:
+#  hostname: cloud-auth-service
+#  port: 7810
+#  contextPath: /uaa
+#
+#
+#security:
+#  user:
+#    name: user
+#    password: 123123
+#  oauth2:
+#    resource:
+#      user-info-uri: http://${authserver.hostname}:${authserver.port}/${authserver.contextPath}/current
+#    client:
+#      clientId: spring-feign-one
+#      clientSecret: ${security.user.password}
+#      accessTokenUri: http://${authserver.hostname}:${authserver.port}/${authserver.contextPath}/oauth/token
+#      grant-type: client_credentials
+#      scope: server
+#  basic:
+#    enabled: true
 
 #spring:
 #  application:

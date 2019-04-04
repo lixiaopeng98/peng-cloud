@@ -5,15 +5,16 @@ import feign.Param;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
-@FeignClient(name = "spring-feign-one",fallback = GoodsClient.GoodsClientFallBack.class)
+@FeignClient(name = "cloud-feign-one",fallback = GoodsClient.GoodsClientFallBack.class)
 public interface GoodsClient {
 
     @GetMapping(value = "/goods/byId")
-    Goods byId(@Param(value = "id") String id);
+    Goods byId(@RequestParam(value = "id") String id);
 
     @Component
-    public class GoodsClientFallBack implements GoodsClient{
+    class GoodsClientFallBack implements GoodsClient{
 
         @Override
         public Goods byId(String id) {

@@ -15,11 +15,12 @@ eureka:
     register-with-eureka: false
     fetch-registry: false
     service-url:
-      defaultZone: http://${security.user.name}:${security.user.password}@${eureka.instance.namespace}:${server.port}/eureka/
+      defaultZone: http://${eureka.instance.namespace}:${server.port}/eureka/
+#      defaultZone: http://${security.user.name}:${security.user.password}@${eureka.instance.namespace}:${server.port}/eureka/
 
 
-security:
-  user:
-    name: user
-    password: 123123
+#security:
+#  user:
+#    name: user
+#    password: 123123
 
