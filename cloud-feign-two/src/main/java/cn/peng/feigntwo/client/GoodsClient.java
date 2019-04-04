@@ -19,7 +19,7 @@ public interface GoodsClient {
         @Override
         public Goods byId(String id) {
             Goods goods = new Goods();
-            goods.setDescribe("降级了");
+            goods.setDescribe("降级了" + id);
             return goods;
         }
     }

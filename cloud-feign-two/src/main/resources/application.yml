@@ -15,8 +15,13 @@ eureka:
     service-url:
 #      defaultZone: http://${security.user.name}:${security.user.password}@registry:7801/eureka/
       defaultZone: http://${eureka.instance.hostname}:7801/eureka/
+
 ribbon:
   eureka:
+    enabled: true
+
+feign:
+  hystrix:
     enabled: true
 
 hystrix:
@@ -25,7 +30,7 @@ hystrix:
       execution:
         isolation:
           thread:
-            timeoutInMilliseconds: 10000
+            timeoutInMilliseconds: 100
 #security:
 #  user:
 #    name: user

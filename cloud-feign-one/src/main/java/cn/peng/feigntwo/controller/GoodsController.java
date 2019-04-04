@@ -6,6 +6,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.Random;
+
 //@RefreshScope
 @RestController
 @RequestMapping(value = "/goods")
@@ -19,12 +21,15 @@ public class GoodsController {
         goods.setName(id+"_name");
         goods.setDescribe("id为"+id);
         goods.setNumber(10);
-
+        Random random = new Random();
+        int i = random.nextInt(150)%(150-50+1) + 50;
         try {
-            Thread.sleep(1000000);
+            Thread.sleep(i);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+
+        System.out.println("访问byId："+id+",线程睡眠了"+i+"毫秒！");
         return goods;
     }
 }
