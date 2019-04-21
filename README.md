@@ -20,3 +20,6 @@ spring-cloud-peng
 + redis
 + 数据库的分库分表
 + 高并发的场景
++ hadoop
++ mongodb
++ memcached

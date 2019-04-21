@@ -1,3 +1,18 @@
+spring:
+  application:
+    name: svca-service
+  cloud:
+    config:
+      uri: http://config:7800
+      fail-fast: true
+      retry:
+        initial-interval: 2000
+        max-interval: 10000
+        multiplier: 2
+        max-attempts: 10
+
+
+
 server:
   port: 7802
 
