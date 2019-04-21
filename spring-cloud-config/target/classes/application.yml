@@ -10,6 +10,8 @@ spring:
         git:
           uri: https://github.com/lixiaopeng98/peng-cloud
           search-paths: config-warehouse
+          username: 1048834827@qq.com
+          password: tkdshyxw5
   rabbitmq:
     host: rabbitmq
 
