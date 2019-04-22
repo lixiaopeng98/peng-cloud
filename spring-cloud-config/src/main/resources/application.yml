@@ -1,5 +1,5 @@
 server:
-  port: 8888
+  port: 7800
 
 spring:
   application:
@@ -12,8 +12,6 @@ spring:
           search-paths: config-warehouse
           username: 1048834827@qq.com
           password: tkdshyxw5
-  rabbitmq:
-    host: rabbitmq
 
 eureka:
   instance:

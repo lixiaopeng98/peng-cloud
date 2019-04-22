@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: cloud-feign-one
+  cloud:
+    config:
+      uri: http://config:7800
+      fail-fast: true
+
