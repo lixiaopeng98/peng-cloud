@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: cloud-feign-two
+  cloud:
+    config:
+      uri: http://coinfig:7800
+      fail-fast: true
