@@ -2,23 +2,10 @@
 server:
   port: 7802
 
-spring:
-  application:
-    name: cloud-feign-one
-
-security:
-  user:
-    name: user
-    password: 123123
-
 eureka:
   instance:
     hostname: registry
     prefer-ip-address: true
-#    metadata-map:
-#      user.name: user
-#      user.password: 123123
   client:
     service-url:
-#      defaultZone: http://${security.user.name}:${security.user.password}@registry:7801/eureka/
-      defaultZone: http://${eureka.instance.hostname}:7801/eureka/
+      defaultZone: http://registry:7801/eureka/
