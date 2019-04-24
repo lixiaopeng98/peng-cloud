@@ -11,4 +11,4 @@ eureka:
       defaultZone: http://registry:7801/eureka/
 
 goods:
-  msg: 0000
+  msg: pppppp
