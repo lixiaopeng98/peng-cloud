@@ -22,6 +22,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:7801/eureka/
-
+management:
+  security:
+    enabled: false
 
 

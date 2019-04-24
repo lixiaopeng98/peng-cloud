@@ -24,4 +24,3 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:7801/eureka/
 
 
-
