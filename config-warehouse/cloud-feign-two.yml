@@ -4,8 +4,6 @@ server:
 spring:
   application:
     name: cloud-feign-two
-  rabbitmq:
-    host: rabbitmq
 eureka:
   instance:
     hostname: registry
@@ -13,7 +11,8 @@ eureka:
   client:
     service-url:
       defaultZone: http://${eureka.instance.hostname}:7801/eureka/
-
+    healthcheck:
+      enabled: false
 ribbon:
   eureka:
     enabled: true

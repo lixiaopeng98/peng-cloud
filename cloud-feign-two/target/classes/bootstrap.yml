@@ -5,3 +5,8 @@ spring:
     config:
       uri: http://config:7800
       fail-fast: true
+
+eureka:
+  client:
+    healthcheck:
+      enabled: false
