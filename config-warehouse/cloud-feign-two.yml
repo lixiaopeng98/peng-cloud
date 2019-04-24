@@ -4,6 +4,8 @@ server:
 spring:
   application:
     name: cloud-feign-two
+  rabbitmq:
+    host: rabbitmq
 eureka:
   instance:
     hostname: registry
