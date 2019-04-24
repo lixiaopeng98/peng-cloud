@@ -9,3 +9,6 @@ eureka:
   client:
     service-url:
       defaultZone: http://registry:7801/eureka/
+
+goods:
+  msg: 789

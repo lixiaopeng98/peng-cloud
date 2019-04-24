@@ -1,7 +1,6 @@
 package cn.peng.feigntwo.client;
 
 import cn.peng.feigntwo.model.Goods;
-import feign.Param;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
