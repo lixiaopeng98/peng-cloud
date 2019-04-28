@@ -24,7 +24,11 @@ spring-cloud-peng
 + mongodb
 + memcached
 
-
-eureka feign config gateway
-
-gateway 指定路径转发 请求路径前缀过滤
+已完成  
+eureka  feign config gateway  
+eureka (注册中心)  
+feign+hystrix(客户端请求，加fallback，加hystrix熔断)  
+config(配置中心服务 所有的服务都需要在config service请求配置文件
+        动态刷新需要 @RefreshScope标签支持 和 链接式的刷新配置中心的配置  然后通过rabbitMQ通知第三方服务
+        http://localhost:7800/bus/refresh?destination=cloud-feign-one:**)  
+gateway 指定路径转发 请求路径前缀过滤  详细请看 cloud-gateway.yml:routes
