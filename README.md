@@ -6,8 +6,8 @@ spring-cloud-peng
 * feign (Hystrix熔断)
 * config   
     (配置中心--git) (配置管理工具包，让你可以把配置放到远程服务器，集中化管理集群配置，目前支持本地存储、Git以及Subversion。)
+* gateway zuul (动态路由 权限控制)
 * security (maybe) oauth2
-* zuul (动态路由 权限控制)
 * sleuth   
     (日志收集工具包，封装了Dapper和log-based追踪以及Zipkin和HTrace操作，为SpringCloud应用实现了一种分布式追踪解决方案。)
 * bus 
@@ -25,4 +25,6 @@ spring-cloud-peng
 + memcached
 
 
-eureka feign config  
+eureka feign config gateway
+
+gateway 指定路径转发 请求路径前缀过滤
