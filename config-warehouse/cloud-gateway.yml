@@ -1,5 +1,5 @@
 server:
-  port: 7860
+  port: 7820
 
 management:
   security:
@@ -14,19 +14,16 @@ hystrix:
             timeoutInMilliseconds: 20000
 
 ribbon:
-  ReadTimeout: 10000
-  ConnectTimeout: 10000
+  ReadTimeout: 100
+  ConnectTimeout: 100
 
 zuul:
   ignoredServices: '*'
   routes:
-    auth-service:
-      path: /uaa/**
+    cloud-feign-one:
+      path: /goToFeignTwo/**
       stripPrefix: false
       sensitiveHeaders:
-    svca-service:
-      path: /svca/**
-      sensitiveHeaders:
-    svcb-service:
-      path: /svcb/**
+    cloud-feign-one:
+      path: /goods/**
       sensitiveHeaders:

@@ -1,7 +1,8 @@
 package cn.peng.feigntwo.controller;
 
+
+import com.alibaba.fastjson.JSONObject;
 import org.json.JSONException;
-import org.json.JSONObject;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,11 +18,7 @@ public class GoToFeignOneController {
     @RequestMapping(value = "/goToFeignTwo/getMsg")
     public Object getMst(@RequestParam(value = "msg") String msg){
         JSONObject jsonObject = new JSONObject();
-        try {
-            jsonObject.put("数据","feignTwo 返回"+msg);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+        jsonObject.put("数据","feignTwo 返回"+msg);
         return jsonObject;
     }
 }

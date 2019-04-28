@@ -1,8 +1,8 @@
 package cn.peng.feigntwo.controller;
 
 import cn.peng.feigntwo.client.GoToFeignTwoClient;
-import org.json.JSONException;
-import org.json.JSONObject;
+import com.alibaba.fastjson.JSONObject;
+import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.logging.Logger;
 
 /**
  * 本类是去请求 feign two
@@ -22,7 +21,7 @@ import java.util.logging.Logger;
 @RestController
 public class GoToFeignTwoController {
 
-    private static Logger logger = (Logger) LoggerFactory.getLogger(GoToFeignTwoController.class);
+    private static Logger logger = LoggerFactory.getLogger(GoToFeignTwoController.class);
 
     @Value("${goods.parameterOne}")
     private String parameterOne;
@@ -31,14 +30,10 @@ public class GoToFeignTwoController {
     public GoToFeignTwoClient goToFeignTwoClient;
 
     @RequestMapping(value = "/goToFeignTwo/getMsg")
-    public JSONObject goToFeignTwo(@RequestParam(value = "msg") String msg){
+    public Object goToFeignTwo(@RequestParam(value = "msg") String msg){
         JSONObject jsonObject = new JSONObject();
         Object feignTwoMsg = goToFeignTwoClient.getFeignTwoMsg(msg);
-        try {
-            jsonObject.put("请求FeignTwo的结果集为：",feignTwoMsg);
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
+        jsonObject.put("请求FeignTwo的结果集为：",feignTwoMsg);
         return jsonObject;
     }
 
