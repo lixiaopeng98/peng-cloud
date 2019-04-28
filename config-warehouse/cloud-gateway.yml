@@ -34,6 +34,6 @@ zuul:
       stripPrefix: false   # 是否去掉前缀
       sensitiveHeaders:
     cloud-feign-two:
-      path: /feignTwo/goods/**
-      stripPrefix: false   # 是否去掉前缀
+      path: /feignTwo/**
+      stripPrefix: true   # 是否去掉前缀
       sensitiveHeaders:
