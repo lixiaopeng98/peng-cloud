@@ -1,6 +1,15 @@
 server:
   port: 7820
 
+
+eureka:
+  instance:
+    hostname: registry
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://registry:7801/eureka/
+
 management:
   security:
     enabled: false
