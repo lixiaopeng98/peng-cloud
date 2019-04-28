@@ -40,6 +40,13 @@
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
 
+
+        <!-- 其他组件 -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>${project.artifactId}</finalName>

@@ -12,3 +12,4 @@ eureka:
 
 goods:
   msg: uuuuu
+  parameterOne: aaaa

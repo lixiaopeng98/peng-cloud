@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 @RestController
 @RequestMapping(value = "/goods")
-public class GoodsController {
+public class ThisFeignGoodsController {
 
     @Autowired
     GoodsClient goodsClient;
@@ -19,6 +19,6 @@ public class GoodsController {
     @ResponseBody
     @RequestMapping(value = "/list")
     public Goods list(String id){
-        return goodsClient.byId(id);
+        return goodsClient.getGods(id);
     }
 }

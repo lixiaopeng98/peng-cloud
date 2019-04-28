@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: cloud-gateway
+spring:
+  cloud:
+    config:
+      uri: http://config:7800/
+      fail-fast: true
+
+
+zuul:
+  ignoredServices: '*'
+  routes:
+    auth-service:
+      path: /uaa/**
+      stripPrefix: false
+      sensitiveHeaders:
+    svca-service:
+      path: /svca/**
+      sensitiveHeaders:
+    svcb-service:
+      path: /svcb/**
+      sensitiveHeaders:
