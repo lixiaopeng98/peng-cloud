@@ -24,6 +24,6 @@ zuul:
       path: /goToFeignTwo/**
       stripPrefix: false
       sensitiveHeaders:
-    cloud-feign-one:
+    cloud-feign-two:
       path: /goods/**
       sensitiveHeaders:
