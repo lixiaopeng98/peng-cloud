@@ -23,3 +23,6 @@ spring-cloud-peng
 + hadoop
 + mongodb
 + memcached
+
+
+eureka feign config  

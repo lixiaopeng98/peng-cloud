@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" filepath="$PROJECT_DIR$/cloud-eureka/cloud-eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-feign-one/cloud-feign-one.iml" filepath="$PROJECT_DIR$/cloud-feign-one/cloud-feign-one.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-feign-two/cloud-feign-two.iml" filepath="$PROJECT_DIR$/cloud-feign-two/cloud-feign-two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" filepath="$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-peng.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-peng.iml" />
     </modules>
