@@ -31,8 +31,9 @@ zuul:
   routes:
     cloud-feign-one:
       path: /goToFeignTwo/**
-      stripPrefix: false
+      stripPrefix: false   # 是否去掉前缀
       sensitiveHeaders:
     cloud-feign-two:
-      path: /goods/**
+      path: /feignTwo/goods/**
+      stripPrefix: false   # 是否去掉前缀
       sensitiveHeaders:
