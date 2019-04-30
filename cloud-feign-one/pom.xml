@@ -36,12 +36,15 @@
             <artifactId>spring-cloud-starter-bus-amqp</artifactId>
         </dependency>
         <!-- 熔断 -->
-
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-hystrix</artifactId>
         </dependency>
-
+        <!--  zipkin+sleuth服务追踪 -->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-sleuth-zipkin</artifactId>
+        </dependency>
 
         <!-- 其他组件 -->
         <dependency>

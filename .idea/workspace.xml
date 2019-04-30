@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7765b680-b240-4826-982c-c4fc7da8748a" name="Default" comment="want">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-zipkin/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-zipkin/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-warehouse/cloud-zipkin.yml" afterPath="$PROJECT_DIR$/config-warehouse/cloud-zipkin.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_zipkin_reporter_zipkin_reporter_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_sleuth_zipkin_1_2_5_RELEASE.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-feign-one/cloud-feign-one.iml" afterPath="$PROJECT_DIR$/cloud-feign-one/cloud-feign-one.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-feign-one/pom.xml" afterPath="$PROJECT_DIR$/cloud-feign-one/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-feign-two/cloud-feign-two.iml" afterPath="$PROJECT_DIR$/cloud-feign-two/cloud-feign-two.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-feign-two/pom.xml" afterPath="$PROJECT_DIR$/cloud-feign-two/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml" afterPath="$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml" afterPath="$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/cloud-zipkin/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/cloud-zipkin/src/main/resources/bootstrap.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,10 +39,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-zipkin/pom.xml">
+        <entry file="file://$PROJECT_DIR$/cloud-feign-one/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1480">
-              <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -43,58 +51,58 @@
       <file leaf-file-name="cloud-zipkin.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-zipkin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="37">
-              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-zipkin/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="74">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/cloud-feign-one/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="259">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EurekaRegisterApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-eureka/src/main/java/cn/peng/eureka/EurekaRegisterApplication.java">
+      <file leaf-file-name="cloud-feign-two.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="370">
+              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloud-gateway.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-gateway.yml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-feign-two/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="601">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ZipkinApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-zipkin/src/main/java/com/peng/demo/ZipkinApplication.java">
+      <file leaf-file-name="cloud-feign-one.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-zipkin/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="148">
-              <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -159,7 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/install-files/maven/maven-warehouse/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar!/org/springframework/http/HttpStatus.class" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/boot/spring-boot-test/1.5.6.RELEASE/spring-boot-test-1.5.6.RELEASE.jar!/org/springframework/boot/test/web/client/RootUriRequestExpectationManager.class" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/spring-test/4.3.10.RELEASE/spring-test-4.3.10.RELEASE.jar!/org/springframework/mock/http/client/MockClientHttpRequest.class" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/cloud/spring-cloud-config-client/1.3.3.RELEASE/spring-cloud-config-client-1.3.3.RELEASE-sources.jar!/org/springframework/cloud/config/client/ConfigServerHealthIndicator.java" />
@@ -174,7 +181,6 @@
         <option value="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/cloud/spring-cloud-commons/1.2.4.RELEASE/spring-cloud-commons-1.2.4.RELEASE.jar!/org/springframework/cloud/client/serviceregistry/ServiceRegistry.class" />
         <option value="$PROJECT_DIR$/cloud-feign-two/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/cloud/spring-cloud-starter-bus-amqp/1.3.1.RELEASE/spring-cloud-starter-bus-amqp-1.3.1.RELEASE.jar!/META-INF/maven/org.springframework.cloud/spring-cloud-starter-bus-amqp/pom.properties" />
@@ -183,17 +189,13 @@
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/cloud/spring-cloud-starter-bus-amqp/1.3.1.RELEASE/spring-cloud-starter-bus-amqp-1.3.1.RELEASE.jar!/META-INF/spring.provides" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.class" />
         <option value="$PROJECT_DIR$/cloud-feign-one/src/main/java/cn/peng/feigntwo/test/test.java" />
-        <option value="$PROJECT_DIR$/cloud-feign-two/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-feign-one/src/main/java/cn/peng/feigntwo/model/Goods.java" />
-        <option value="$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml" />
         <option value="$PROJECT_DIR$/cloud-feign-two/src/main/java/cn/peng/feigntwo/client/GoodsClient.java" />
         <option value="$PROJECT_DIR$/cloud-feign-one/src/main/java/cn/peng/feigntwo/controller/GoToFeignController.java" />
         <option value="$PROJECT_DIR$/cloud-feign-one/src/main/java/cn/peng/feigntwo/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/cloud-feign-two/src/main/java/cn/peng/feigntwo/controller/GoodsController.java" />
-        <option value="$PROJECT_DIR$/cloud-feign-one/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-feign-one/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-feign-two/src/main/java/cn/peng/feigntwo/controller/GoToFeignOneController.java" />
         <option value="$PROJECT_DIR$/cloud-feign-one/src/main/java/cn/peng/feigntwo/controller/GoToFeignTwoController.java" />
@@ -210,6 +212,12 @@
         <option value="$PROJECT_DIR$/config-warehouse/cloud-gateway.yml" />
         <option value="$PROJECT_DIR$/config-warehouse/cloud-zipkin.yml" />
         <option value="$PROJECT_DIR$/cloud-zipkin/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-feign-one/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-zipkin/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-feign-one/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-feign-two/pom.xml" />
+        <option value="$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml" />
+        <option value="$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml" />
       </list>
     </option>
   </component>
@@ -244,7 +252,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="351" />
     <option name="y" value="337" />
     <option name="width" value="1400" />
@@ -304,63 +312,33 @@
             <path>
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-feign-one" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-feign-one" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-eureka" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-feign-one" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-feign-one" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-feign-two" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
@@ -445,7 +423,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaRegisterApplication">
+  <component name="RunManager" selected="Spring Boot.ZipkinApplication">
     <configuration name="CloudAuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.peng.auth.CloudAuthServiceApplication" />
@@ -633,7 +611,7 @@
       <workItem from="1556438998151" duration="2000" />
       <workItem from="1556439009706" duration="5255000" />
       <workItem from="1556502591619" duration="6578000" />
-      <workItem from="1556586237071" duration="1077000" />
+      <workItem from="1556586237071" duration="2595000" />
     </task>
     <task id="LOCAL-00001" summary="want">
       <created>1554343071740</created>
@@ -653,10 +631,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152174000" />
+    <option name="totallyTimeSpent" value="153692000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -682,7 +660,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41016108" sideWeight="0.49784017" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4039653" sideWeight="0.49784017" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1057,13 +1035,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-feign-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1002">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-feign-two/src/main/java/cn/peng/feigntwo/CloudFeignTwoApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1099,25 +1070,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-feign-one/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-feign-one/cloud-feign-one.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
           <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-feign-one/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1153,20 +1109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
           <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="10" column="47" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -1300,22 +1242,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-zipkin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37">
-          <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-zipkin/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
@@ -1328,6 +1254,62 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-feign-one/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="43" column="16" lean-forward="false" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-zipkin/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-zipkin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-feign-one/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-feign-two/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="601">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
           <folding />
         </state>
       </provider>

@@ -10,6 +10,16 @@ eureka:
     service-url:
       defaultZone: http://registry:7801/eureka/
 
+spring:
+  zipkin:
+    base-url: http://zipkin:7841
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      percentage: 1
+
 goods:
   msg: uuuuu
   parameterOne: aaaa
