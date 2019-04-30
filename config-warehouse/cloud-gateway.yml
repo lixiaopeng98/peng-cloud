@@ -5,14 +5,14 @@ spring:
   zipkin:
     # 服务追踪 地址
       base-url: http://cloud-zipkin:7821
-    sleuth:
-      web:
-        client:
-        # 是否开启
-          enabled: true
-      sampler:
-       #采样比例0～1之间，1全部采样
-        percentage: 1
+  sleuth:
+    web:
+      client:
+      # 是否开启
+        enabled: true
+    sampler:
+     #采样比例0～1之间，1全部采样
+      percentage: 1
 
 eureka:
   instance:
