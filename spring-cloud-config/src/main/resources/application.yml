@@ -14,6 +14,14 @@ spring:
           password: tkdshyxw5
   rabbitmq:
     host: rabbitmq
+  zipkin:
+    base-url: http://cloud-zipkin:7821/
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      percentage: 1
 
 eureka:
   instance:

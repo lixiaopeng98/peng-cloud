@@ -3,13 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="7765b680-b240-4826-982c-c4fc7da8748a" name="Default" comment="want">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-feign-two/cloud-feign-two.iml" afterPath="$PROJECT_DIR$/cloud-feign-two/cloud-feign-two.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-feign-two/pom.xml" afterPath="$PROJECT_DIR$/cloud-feign-two/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-feign-two/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/cloud-feign-two/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-feign-two/target/classes/bootstrap.yml" afterPath="$PROJECT_DIR$/cloud-feign-two/target/classes/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-zipkin/src/main/resources/bootstrap.yml" afterPath="$PROJECT_DIR$/cloud-zipkin/src/main/resources/bootstrap.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml" afterPath="$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml" afterPath="$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cloud-gateway/pom.xml" afterPath="$PROJECT_DIR$/cloud-gateway/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config-warehouse/cloud-gateway.yml" afterPath="$PROJECT_DIR$/config-warehouse/cloud-gateway.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-config/pom.xml" afterPath="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" afterPath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-cloud-config/target/classes/application.yml" afterPath="$PROJECT_DIR$/spring-cloud-config/target/classes/application.yml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -37,40 +36,40 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-feign-one/pom.xml">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="48" column="8" lean-forward="false" selection-start-line="48" selection-start-column="8" selection-end-line="56" selection-end-column="21" />
+            <state relative-caret-position="195">
+              <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloud-zipkin.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-zipkin.yml">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="332">
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cloud-gateway.yml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-gateway.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="37">
-              <caret line="1" column="12" lean-forward="false" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="12" />
+              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cloud-feign-two.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml">
+      <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="74">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cloud-feign-one.yml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="222">
+              <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -79,61 +78,38 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cloud-feign-two/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1304">
-              <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
+            <state relative-caret-position="78">
+              <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CloudFeignOneApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-feign-one/src/main/java/cn/peng/feigntwo/CloudFeignOneApplication.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CloudFeignTwoApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-feign-two/src/main/java/cn/peng/feigntwo/CloudFeignTwoApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-              <folding>
-                <element signature="e#438#439#0" expanded="true" />
-                <element signature="e#512#513#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ClassLoader.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/src.zip!/java/lang/ClassLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="53">
-              <caret line="762" column="0" lean-forward="false" selection-start-line="762" selection-start-column="0" selection-end-line="762" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AspectJAwareAdvisorAutoProxyCreator.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE-sources.jar!/org/springframework/aop/aspectj/autoproxy/AspectJAwareAdvisorAutoProxyCreator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="188">
+              <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="bootstrap.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-zipkin/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/cloud-feign-two/src/main/resources/bootstrap.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="3" column="8" lean-forward="true" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="259">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cloud-feign-two.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="222">
+              <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="16" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -208,15 +184,12 @@
         <option value="$PROJECT_DIR$/cloud-feign-one/src/main/java/cn/peng/feigntwo/config/ServiceAConfiguration.java" />
         <option value="$PROJECT_DIR$/cloud-eureka/src/main/resources/application.yml" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/cloud/spring-cloud-commons/1.2.4.RELEASE/spring-cloud-commons-1.2.4.RELEASE.jar!/org/springframework/cloud/client/serviceregistry/ServiceRegistry.class" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/cloud/spring-cloud-starter-bus-amqp/1.3.1.RELEASE/spring-cloud-starter-bus-amqp-1.3.1.RELEASE.jar!/META-INF/maven/org.springframework.cloud/spring-cloud-starter-bus-amqp/pom.properties" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/cloud/spring-cloud-starter-bus-amqp/1.3.1.RELEASE/spring-cloud-starter-bus-amqp-1.3.1.RELEASE.jar!/META-INF/maven/org.springframework.cloud/spring-cloud-starter-bus-amqp/pom.xml" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/cloud/spring-cloud-starter-bus-amqp/1.3.1.RELEASE/spring-cloud-starter-bus-amqp-1.3.1.RELEASE.jar!/META-INF/MANIFEST.MF" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/cloud/spring-cloud-starter-bus-amqp/1.3.1.RELEASE/spring-cloud-starter-bus-amqp-1.3.1.RELEASE.jar!/META-INF/spring.provides" />
         <option value="D:/install-files/maven/maven-warehouse/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar!/org/springframework/web/servlet/handler/HandlerInterceptorAdapter.class" />
         <option value="$PROJECT_DIR$/cloud-feign-one/src/main/java/cn/peng/feigntwo/test/test.java" />
-        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-feign-one/src/main/java/cn/peng/feigntwo/model/Goods.java" />
         <option value="$PROJECT_DIR$/cloud-feign-two/src/main/java/cn/peng/feigntwo/client/GoodsClient.java" />
@@ -236,7 +209,6 @@
         <option value="$PROJECT_DIR$/cloud-zipkin/src/main/java/com/peng/demo/ZipkinApplication.java" />
         <option value="$PROJECT_DIR$/cloud-zipkin/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/cloud-zipkin/pom.xml" />
-        <option value="$PROJECT_DIR$/config-warehouse/cloud-gateway.yml" />
         <option value="$PROJECT_DIR$/cloud-zipkin/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/cloud-feign-one/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-feign-one/src/main/resources/bootstrap.yml" />
@@ -249,6 +221,10 @@
         <option value="$PROJECT_DIR$/cloud-zipkin/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml" />
         <option value="$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/config-warehouse/cloud-gateway.yml" />
+        <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
       </list>
     </option>
   </component>
@@ -343,85 +319,25 @@
             <path>
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-one" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-one" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feigntwo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-one" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-two" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-two" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-two" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-two" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-two" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="feigntwo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-feign-two" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -430,32 +346,37 @@
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
               <item name="cloud-zipkin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-zipkin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-zipkin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
-              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-zipkin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
               <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
               <item name="config-warehouse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud-peng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spring-cloud-peng" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-cloud-config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -509,7 +430,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ZipkinApplication">
+  <component name="RunManager" selected="Spring Boot.CloudGatewayApplication">
     <configuration name="CloudAuthServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="cn.peng.auth.CloudAuthServiceApplication" />
@@ -697,7 +618,7 @@
       <workItem from="1556438998151" duration="2000" />
       <workItem from="1556439009706" duration="5255000" />
       <workItem from="1556502591619" duration="6578000" />
-      <workItem from="1556586237071" duration="5243000" />
+      <workItem from="1556586237071" duration="7094000" />
     </task>
     <task id="LOCAL-00001" summary="want">
       <created>1554343071740</created>
@@ -717,11 +638,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156340000" />
+    <option name="totallyTimeSpent" value="158191000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -731,7 +651,7 @@
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25526643" sideWeight="0.50215983" order="12" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28347734" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28347734" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283767" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30855018" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293556" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -746,7 +666,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4039653" sideWeight="0.49784017" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4039653" sideWeight="0.49784017" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -817,244 +737,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="uml://MAVEN/cn.peng:cloud-gateway:1.0-SNAPSHOT">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MAVEN</ID>
-          <OriginalElement>cn.peng:cloud-gateway:1.0-SNAPSHOT</OriginalElement>
-          <nodes>
-            <node x="" y="">cn.peng:cloud-gateway:1.0-SNAPSHOT</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-core:jar:8.5.16</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-el:jar:8.5.16</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter-tomcat:jar:1.5.6.RELEASE/org.apache.tomcat.embed:tomcat-embed-websocket:jar:8.5.16</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/javax.validation:validation-api:jar:1.1.0.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/org.jboss.logging:jboss-logging:jar:3.3.1.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.hibernate:hibernate-validator:jar:5.3.5.Final/com.fasterxml:classmate:jar:1.3.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework:spring-web:jar:4.3.10.RELEASE/org.springframework:spring-beans:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework:spring-webmvc:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-web:jar:1.5.6.RELEASE/org.springframework:spring-webmvc:jar:4.3.10.RELEASE/org.springframework:spring-expression:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.4.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter:jar:1.2.4.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55/org.bouncycastle:bcprov-jdk15on:jar:1.55</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-netflix-core:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-netflix-eureka-client:jar:1.3.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.codehaus.jettison:jettison:jar:1.3.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.codehaus.jettison:jettison:jar:1.3.7/stax:stax-api:jar:1.0.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/commons-jxpath:commons-jxpath:jar:1.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/joda-time:joda-time:jar:2.9.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/org.antlr:stringtemplate:jar:3.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/org.antlr:antlr-runtime:jar:3.4/antlr:antlr:jar:2.7.7</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/com.netflix.netflix-commons:netflix-infix:jar:0.3.0/com.google.code.gson:gson:jar:2.8.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.netflix-commons:netflix-eventbus:jar:0.3.0/org.apache.commons:commons-math:jar:2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.archaius:archaius-core:jar:0.7.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/javax.ws.rs:jsr311-api:jar:1.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.servo:servo-core:jar:0.10.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.netflix.servo:servo-core:jar:0.10.1/com.netflix.servo:servo-internal:jar:0.10.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey:jersey-core:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey:jersey-client:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.sun.jersey.contribs:jersey-apache-client4:jar:1.19.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.apache.httpcomponents:httpclient:jar:4.5.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.apache.httpcomponents:httpclient:jar:4.5.3/org.apache.httpcomponents:httpcore:jar:4.4.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/org.apache.httpcomponents:httpclient:jar:4.5.3/commons-codec:commons-codec:jar:1.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0/javax.inject:javax.inject:jar:1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.google.inject:guice:jar:4.1.0/aopalliance:aopalliance:jar:1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-client:jar:1.6.2/com.fasterxml.jackson.core:jackson-core:jar:2.8.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/javax.xml.stream:stax-api:jar:1.0-2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.eureka:eureka-core:jar:1.6.2/org.codehaus.woodstox:woodstox-core-asl:jar:4.4.1/org.codehaus.woodstox:stax2-api:jar:3.1.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE/commons-configuration:commons-configuration:jar:1.8</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE/commons-configuration:commons-configuration:jar:1.8/commons-lang:commons-lang:jar:2.6</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-archaius:jar:1.3.5.RELEASE/com.google.guava:guava:jar:18.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-contexts:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/com.netflix.ribbon:ribbon-transport:jar:2.2.2/io.reactivex:rxnetty-servo:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-codec:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-codec-http:jar:4.0.27.Final/io.netty:netty-handler:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-common:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon:jar:2.2.2/io.reactivex:rxnetty:jar:0.4.9/io.netty:netty-transport-native-epoll:jar:4.0.27.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-core:jar:2.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-httpclient:jar:2.2.2/commons-collections:commons-collections:jar:3.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-loadbalancer:jar:2.2.2/com.netflix.netflix-commons:netflix-statistics:jar:0.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-ribbon:jar:1.3.5.RELEASE/io.reactivex:rxjava:jar:1.1.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.netflix.ribbon:ribbon-eureka:jar:2.2.2/org.slf4j:slf4j-api:jar:1.7.25</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xmlpull:xmlpull:jar:1.1.3.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-eureka:jar:1.3.5.RELEASE/com.thoughtworks.xstream:xstream:jar:1.4.9/xpp3:xpp3_min:jar:1.1.4c</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zuul:jar:1.3.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zuul:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-starter-hystrix:jar:1.3.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zuul:jar:1.3.5.RELEASE/com.netflix.zuul:zuul-core:jar:1.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zuul:jar:1.3.5.RELEASE/com.netflix.zuul:zuul-core:jar:1.3.0/commons-io:commons-io:jar:2.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-zuul:jar:1.3.5.RELEASE/com.netflix.zuul:zuul-core:jar:1.3.0/com.netflix.netflix-commons:netflix-commons-util:jar:0.1.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.cloud:spring-cloud-gateway-core:jar:2.1.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.cloud:spring-cloud-gateway-core:jar:2.1.1.RELEASE/io.projectreactor.addons:reactor-extra:jar:3.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.cloud:spring-cloud-gateway-core:jar:2.1.1.RELEASE/io.projectreactor.addons:reactor-extra:jar:3.2.2.RELEASE/io.projectreactor:reactor-core:jar:2.0.8.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.3.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jdk8:jar:2.8.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.3.RELEASE/com.fasterxml.jackson.datatype:jackson-datatype-jsr310:jar:2.8.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-json:jar:2.1.3.RELEASE/com.fasterxml.jackson.module:jackson-module-parameter-names:jar:2.8.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-codec-http:jar:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-codec-http2:jar:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-codec-http2:jar:4.1.33.Final/io.netty:netty-common:jar:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-codec-http2:jar:4.1.33.Final/io.netty:netty-buffer:jar:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-codec-http2:jar:4.1.33.Final/io.netty:netty-transport:jar:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-codec-http2:jar:4.1.33.Final/io.netty:netty-codec:jar:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-codec-http2:jar:4.1.33.Final/io.netty:netty-codec-http:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler:jar:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler:jar:4.1.33.Final/io.netty:netty-common:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler:jar:4.1.33.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler:jar:4.1.33.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler:jar:4.1.33.Final/io.netty:netty-codec:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final/io.netty:netty-common:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final/io.netty:netty-codec:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final/io.netty:netty-codec-socks:jar:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final/io.netty:netty-codec-socks:jar:4.1.33.Final/io.netty:netty-common:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final/io.netty:netty-codec-socks:jar:4.1.33.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final/io.netty:netty-codec-socks:jar:4.1.33.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final/io.netty:netty-codec-socks:jar:4.1.33.Final/io.netty:netty-codec:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-handler-proxy:jar:4.1.33.Final/io.netty:netty-codec-http:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.33.Final/io.netty:netty-common:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.33.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.33.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.33.Final/io.netty:netty-transport-native-unix-common:jar:4.1.33.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.33.Final/io.netty:netty-transport-native-unix-common:jar:4.1.33.Final/io.netty:netty-common:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.33.Final/io.netty:netty-transport-native-unix-common:jar:4.1.33.Final/io.netty:netty-buffer:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework.boot:spring-boot-starter-reactor-netty:jar:2.1.3.RELEASE/io.projectreactor.netty:reactor-netty:jar:0.8.5.RELEASE/io.netty:netty-transport-native-epoll:jar:linux-x86_64:4.1.33.Final/io.netty:netty-transport-native-unix-common:jar:4.1.33.Final/io.netty:netty-transport:jar:4.0.27.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.hibernate.validator:hibernate-validator:jar:6.0.14.Final</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.springframework:spring-webflux:jar:5.1.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.synchronoss.cloud:nio-multipart-parser:jar:1.1.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-gateway:jar:2.1.1.RELEASE/org.springframework.boot:spring-boot-starter-webflux:jar:2.1.3.RELEASE/org.synchronoss.cloud:nio-multipart-parser:jar:1.1.0/org.synchronoss.cloud:nio-stream-storage:jar:1.1.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-hystrix:jar:2.1.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.1.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-ribbon:jar:2.1.1.RELEASE/org.springframework.cloud:spring-cloud-netflix-archaius:jar:2.1.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/org.springframework.cloud:spring-cloud-starter-netflix-archaius:jar:2.1.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/com.netflix.hystrix:hystrix-core:jar:1.5.12/org.hdrhistogram:HdrHistogram:jar:2.1.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.18</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/com.netflix.hystrix:hystrix-serialization:jar:1.5.18/com.fasterxml.jackson.module:jackson-module-afterburner:jar:2.8.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/com.netflix.hystrix:hystrix-metrics-event-stream:jar:1.5.12/com.netflix.hystrix:hystrix-serialization:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.apache.commons:commons-lang3:jar:3.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.ow2.asm:asm:jar:5.0.4</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/com.netflix.hystrix:hystrix-javanica:jar:1.5.12/org.aspectj:aspectjweaver:jar:1.8.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-netflix-hystrix:jar:2.1.1.RELEASE/io.reactivex:rxjava-reactive-streams:jar:1.2.1/org.reactivestreams:reactive-streams:jar:1.0.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:1.3.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:1.3.3.RELEASE/org.springframework.cloud:spring-cloud-config-client:jar:1.3.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-config:jar:1.3.3.RELEASE/com.fasterxml.jackson.core:jackson-databind:jar:2.8.9</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-amqp:jar:1.3.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-amqp:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-starter-stream-rabbit:jar:1.2.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-amqp:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-bus:jar:1.3.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-amqp:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-bus:jar:1.3.1.RELEASE/org.springframework.integration:spring-integration-core:jar:4.3.11.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-bus-amqp:jar:1.3.1.RELEASE/org.springframework.cloud:spring-cloud-bus:jar:1.3.1.RELEASE/org.springframework.integration:spring-integration-core:jar:4.3.11.RELEASE/org.springframework:spring-tx:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.6.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.4.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.4.RELEASE/org.springframework.security:spring-security-crypto:jar:4.2.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.2.2.RELEASE/org.springframework.boot:spring-boot-starter-validation:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.2.2.RELEASE/org.springframework:spring-messaging:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.2.2.RELEASE/org.springframework.integration:spring-integration-jmx:jar:4.3.11.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.2.2.RELEASE/org.springframework:spring-tuple:jar:1.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.2.2.RELEASE/org.springframework.integration:spring-integration-tuple:jar:1.0.0.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-netflix-hystrix-stream:jar:1.3.5.RELEASE/org.springframework.cloud:spring-cloud-stream:jar:1.2.2.RELEASE/org.springframework.retry:spring-retry:jar:1.2.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-sleuth:jar:1.2.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-sleuth:jar:1.2.5.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-sleuth:jar:1.2.5.RELEASE/org.springframework.boot:spring-boot-starter-aop:jar:1.5.6.RELEASE/org.springframework:spring-aop:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-sleuth:jar:1.2.5.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:1.2.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-sleuth:jar:1.2.5.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:1.2.5.RELEASE/org.springframework:spring-context:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-starter-sleuth:jar:1.2.5.RELEASE/org.springframework.cloud:spring-cloud-sleuth-core:jar:1.2.5.RELEASE/org.aspectj:aspectjrt:jar:1.8.10</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-sleuth-stream:jar:1.2.5.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-stream-binder-rabbit-core:jar:1.2.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-stream-codec:jar:1.2.2.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-stream-codec:jar:1.2.2.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE/org.springframework.cloud:spring-cloud-stream-codec:jar:1.2.2.RELEASE/com.esotericsoftware:kryo-shaded:jar:3.0.3/com.esotericsoftware:minlog:jar:1.3.0</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-amqp:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-amqp:jar:1.5.6.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-amqp:jar:1.5.6.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.3.RELEASE/com.rabbitmq:http-client:jar:1.1.1.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-amqp:jar:1.5.6.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.3.RELEASE/com.rabbitmq:amqp-client:jar:4.0.2</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE/org.springframework.boot:spring-boot-starter-amqp:jar:1.5.6.RELEASE/org.springframework.amqp:spring-rabbit:jar:1.7.3.RELEASE/org.springframework.amqp:spring-amqp:jar:1.7.3.RELEASE</node>
-            <node x="" y="">org.springframework.cloud:spring-cloud-stream-binder-rabbit:jar:1.2.1.RELEASE/org.springframework.integration:spring-integration-amqp:jar:4.3.11.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/junit:junit:jar:4.12</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.assertj:assertj-core:jar:2.6.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.springframework:spring-core:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.6.RELEASE/org.springframework:spring-test:jar:4.3.10.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.6.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
-            <node x="" y="">org.springframework.boot:spring-boot-starter-actuator:jar:1.5.6.RELEASE/org.springframework.boot:spring-boot-actuator:jar:1.5.6.RELEASE</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="2733.0" y="3370.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>All</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.5.RELEASE/spring-cloud-netflix-core-1.3.5.RELEASE.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="201" column="16" lean-forward="false" selection-start-line="201" selection-start-column="16" selection-end-line="201" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-netflix-core/1.3.5.RELEASE/spring-cloud-netflix-core-1.3.5.RELEASE-sources.jar!/org/springframework/cloud/netflix/zuul/filters/ZuulProperties.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
@@ -1068,13 +750,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="333">
           <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="26" column="51" lean-forward="true" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1228,22 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="42" column="27" lean-forward="false" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2146">
-          <caret line="76" column="10" lean-forward="false" selection-start-line="76" selection-start-column="10" selection-end-line="76" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-zipkin/src/main/java/com/peng/demo/ZipkinApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="148">
@@ -1256,22 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1480">
           <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-gateway.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -1375,22 +1018,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-feign-two/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-feign-two/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1304">
-          <caret line="53" column="21" lean-forward="false" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/cloud-zipkin/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
@@ -1407,18 +1034,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml">
+    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="74">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="185">
+          <caret line="5" column="11" lean-forward="true" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-one.yml">
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="14" column="38" lean-forward="false" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="32" column="48" lean-forward="false" selection-start-line="32" selection-start-column="48" selection-end-line="32" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-feign-two/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-cloud-config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="40" column="26" lean-forward="false" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-feign-two/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="45" column="21" lean-forward="false" selection-start-line="45" selection-start-column="21" selection-end-line="45" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-feign-two.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="2" lean-forward="false" selection-start-line="6" selection-start-column="2" selection-end-line="16" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="6" column="21" lean-forward="false" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-warehouse/cloud-gateway.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="37">
+          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
           <folding />
         </state>
       </provider>
