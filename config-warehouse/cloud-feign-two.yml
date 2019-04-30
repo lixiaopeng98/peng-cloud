@@ -6,7 +6,7 @@ spring:
     name: cloud-feign-two
   zipkin:
   # 服务追踪 地址
-    base-url: http://zipkin:7841
+    base-url: http://cloud-zipkin:7821
   sleuth:
     web:
       client:

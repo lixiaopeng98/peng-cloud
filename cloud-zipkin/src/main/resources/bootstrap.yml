@@ -1,8 +1,6 @@
-server:
-  port: 9411
 spring:
   application:
-    name: zipkin
+    name: cloud-zipkin
   cloud:
     config:
       fail-fast: true
