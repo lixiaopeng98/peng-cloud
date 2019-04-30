@@ -4,7 +4,7 @@ server:
 
 eureka:
   instance:
-    hostname: cloud-zipkin
+    hostname: registry
     prefer-ip-address: true
   client:
     service-url:
