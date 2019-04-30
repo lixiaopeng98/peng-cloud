@@ -1,5 +1,5 @@
 server:
-  port: 7820
+  port: 7821
 
 
 eureka:

@@ -1,8 +1,9 @@
-spring:
-  application:
-    name: zipkin
-  rabbitmq:
-      host: rabbitmq
-
 server:
   port: 9411
+spring:
+  cloud:
+    config:
+      fail-fast: true
+      uri: http://config:7800/
+
+
