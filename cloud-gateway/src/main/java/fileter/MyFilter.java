@@ -46,7 +46,7 @@ public class MyFilter extends ZuulFilter {
         if (!ObjectUtils.isEmpty( headerNames)){
             while (headerNames.hasMoreElements()){
                 String headerName = headerNames.nextElement();
-                logger.info("{} -- request header : name {}, value {}",s,headerName,request.getHeader(headerName));
+                logger.info("{} -- request header : headername {}, value {}",s,headerName,request.getHeader(headerName));
             }
         }else {
             logger.info("{} -- request header : name {}, value {}",s,null,null);

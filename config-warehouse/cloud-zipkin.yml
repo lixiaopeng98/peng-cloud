@@ -1,0 +1,11 @@
+server:
+  port: 7820
+
+
+eureka:
+  instance:
+    hostname: cloud-zipkin
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://registry:7801/eureka/

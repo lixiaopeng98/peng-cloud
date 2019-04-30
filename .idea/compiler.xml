@@ -11,6 +11,7 @@
         <module name="cloud-feign-one" />
         <module name="cloud-feign-two" />
         <module name="cloud-gateway" />
+        <module name="cloud-zipkin" />
         <module name="cloudauthservice" />
         <module name="cloudeureka" />
         <module name="cloudfeignone" />
@@ -25,6 +26,7 @@
       <module name="cloud-feign-one" target="1.8" />
       <module name="cloud-feign-two" target="1.8" />
       <module name="cloud-gateway" target="1.8" />
+      <module name="cloud-zipkin" target="1.8" />
       <module name="cloudauthservice" target="1.8" />
       <module name="spring-cloud-config" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />

@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: zipkin
+  rabbitmq:
+      host: rabbitmq
+
+server:
+  port: 9411
