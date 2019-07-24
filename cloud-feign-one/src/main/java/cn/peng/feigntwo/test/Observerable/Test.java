@@ -13,5 +13,8 @@ public class Test {
         server.registerObserver(wang);
 
         server.setInfomation("CNMD");
+
+        li.update("NDYD");
+        server.removeObserver(li);
     }
 }

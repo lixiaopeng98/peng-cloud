@@ -7,6 +7,8 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-gateway/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud-core/pom.xml" />
       </list>
     </option>
   </component>

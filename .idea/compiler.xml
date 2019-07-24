@@ -16,7 +16,9 @@
         <module name="cloudeureka" />
         <module name="cloudfeignone" />
         <module name="cloudfeigntwo" />
+        <module name="demo" />
         <module name="spring-cloud-config" />
+        <module name="spring-cloud-core" />
         <module name="springcloudconfig" />
       </profile>
     </annotationProcessing>
@@ -28,7 +30,9 @@
       <module name="cloud-gateway" target="1.8" />
       <module name="cloud-zipkin" target="1.8" />
       <module name="cloudauthservice" target="1.8" />
+      <module name="demo" target="1.8" />
       <module name="spring-cloud-config" target="1.8" />
+      <module name="spring-cloud-core" target="1.8" />
       <module name="spring-cloud-demo" target="1.8" />
       <module name="spring-cloud-peng" target="1.8" />
       <module name="springcloudconfig" target="1.8" />

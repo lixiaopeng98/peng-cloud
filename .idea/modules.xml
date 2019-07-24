@@ -9,7 +9,8 @@
       <module fileurl="file://$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" filepath="$PROJECT_DIR$/cloud-gateway/cloud-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud-zipkin/cloud-zipkin.iml" filepath="$PROJECT_DIR$/cloud-zipkin/cloud-zipkin.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" filepath="$PROJECT_DIR$/spring-cloud-config/spring-cloud-config.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-peng.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-peng.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-core/spring-cloud-core.iml" filepath="$PROJECT_DIR$/spring-cloud-core/spring-cloud-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-peng.iml" filepath="$PROJECT_DIR$/spring-cloud-peng.iml" />
     </modules>
   </component>
 </project>
