@@ -7,8 +7,8 @@ import org.springframework.stereotype.Component;
 /**
  * redis 集群配置属性文件
  */
-@Component
-@ConfigurationProperties(prefix  = "spring.redis.cluster")
+//@Component
+//@ConfigurationProperties(prefix  = "spring.redis.cluster")
 @Data
 public class RedisProperties {
 

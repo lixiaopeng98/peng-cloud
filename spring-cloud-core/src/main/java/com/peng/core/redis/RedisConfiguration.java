@@ -1,9 +1,12 @@
 package com.peng.core.redis;
 
 import com.sun.xml.internal.ws.encoding.soap.SerializationException;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.PropertySource;
 import org.springframework.data.redis.connection.RedisClusterConfiguration;
+import org.springframework.data.redis.connection.RedisNode;
 import org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.serializer.RedisSerializer;
@@ -12,13 +15,37 @@ import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.util.HashSet;
+import java.util.Set;
 
 @Configuration
+@PropertySource(value = "classpath:application.yml")
 public class RedisConfiguration {
+
+    @Value("${spring.redis.cluster.nodes}")
+    private String nodes;
 
     @Bean
     LettuceConnectionFactory lettuceConnectionFactory() {
-        return new LettuceConnectionFactory(new RedisClusterConfiguration());
+
+        // 集群redis
+        RedisClusterConfiguration redisConfig = new RedisClusterConfiguration();
+        Set<RedisNode> nodeses = new HashSet<>();
+        String[] hostses = nodes.split(",");
+        for (String h : hostses) {
+            h = h.replaceAll("\\s", "").replaceAll("\n", "");
+            if (!"".equals(h)) {
+                String host = h.split(":")[0];
+                int port = Integer.valueOf(h.split(":")[1]);
+                nodeses.add(new RedisNode(host, port));
+            }
+        }
+        redisConfig.setClusterNodes(nodeses);
+        // 跨集群执行命令时要遵循的最大重定向数量
+        redisConfig.setMaxRedirects(3);
+//        redisConfig.setPassword(password);
+
+        return new LettuceConnectionFactory(redisConfig);
     }
 
     @Bean
