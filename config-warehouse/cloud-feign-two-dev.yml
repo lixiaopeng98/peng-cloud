@@ -1,0 +1,41 @@
+server:
+  port: 7811
+
+spring:
+  application:
+    name: cloud-feign-two
+  zipkin:
+  # 服务追踪 地址
+    base-url: http://47.94.208.130:7821
+  sleuth:
+    web:
+      client:
+      # 是否开启
+        enabled: true
+    sampler:
+     #采样比例0～1之间，1全部采样
+      percentage: 1
+eureka:
+  instance:
+    hostname: registry
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://${eureka.instance.hostname}:7801/eureka/
+    healthcheck:
+      enabled: false
+ribbon:
+  eureka:
+    enabled: true
+
+feign:
+  hystrix:
+    enabled: true
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 100

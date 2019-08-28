@@ -1,0 +1,51 @@
+server:
+  port: 7820
+
+spring:
+  zipkin:
+    # 服务追踪 地址
+      base-url: http://47.94.208.130:7821
+  sleuth:
+    web:
+      client:
+      # 是否开启
+        enabled: true
+    sampler:
+     #采样比例0～1之间，1全部采样
+      percentage: 1
+
+eureka:
+  instance:
+    hostname: registry
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://47.94.208.130:7801/eureka/
+
+management:
+  security:
+    enabled: false
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000
+
+ribbon:
+  ReadTimeout: 2000
+  ConnectTimeout: 2000
+
+zuul:
+  ignoredServices: '*'
+  routes:
+    cloud-feign-one:
+      path: /goToFeignTwo/**
+      stripPrefix: false   # 是否去掉前缀
+      sensitiveHeaders:
+    cloud-feign-two:
+      path: /feignTwo/**
+      stripPrefix: true   # 是否去掉前缀
+      sensitiveHeaders:

@@ -1,0 +1,25 @@
+
+server:
+  port: 7810
+
+eureka:
+  instance:
+    hostname: registry
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://47.94.208.130:7801/eureka/
+
+spring:
+  zipkin:
+    base-url: http://47.94.208.130:7821
+  sleuth:
+    web:
+      client:
+        enabled: true
+    sampler:
+      percentage: 1
+
+goods:
+  msg: uuuuu
+  parameterOne: aaaa
