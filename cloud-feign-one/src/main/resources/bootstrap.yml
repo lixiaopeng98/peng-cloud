@@ -6,4 +6,6 @@ spring:
       uri: http://config:7800
       fail-fast: true
 
+  profiles:
+    active: dev
 
